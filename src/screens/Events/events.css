@@ -1,0 +1,83 @@
+.events-header{
+    /* background-color: red; */
+    /* margin-top: -55%; */
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM sans";
+    color: #000;
+    position: fixed;
+    background-color: #fff;
+    width: 100vw;
+}
+
+.events-title{
+    font-family: "DM Sans";
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.events-header .back-btn{
+    position: absolute;
+    left:0;
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+.event-card{
+    height: 201px;
+    /* background-color: red; */
+    width: 81%;
+    border-radius: 13px;
+    overflow: hidden;
+    font-family: "DM Sans";
+    border: 1px solid #eaeaea;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+}
+
+.event-card-image{
+    height: 123px;
+    background-color: #000;
+    border-top-right-radius:13px ;
+    border-top-left-radius:13px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('https://88855b0c46.clvaw-cdnwnd.com/d868bdb1e19baff1499d46f2e8a2793c/200001113-87f0187f04/700/Screenshot%202023-06-02%20at%2016.08.14-4.webp?ph=88855b0c46'); */
+}
+
+.event-card-title{
+    margin-left: 7px;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.event-card-location{
+    margin-left: 7px;
+    font-size: 12px;
+    /* font-size: 12px; */
+}
+
+
+.events-container{
+    padding-top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 14%;
+
+}
+
+.dual-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12px;
+    width: 100vw;
+    
+}

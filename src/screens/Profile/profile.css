@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Dashboard container */
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.satoshi-text {
+  font-family: 'Satoshi Variable', sans-serif;
+}
+
+
+/* Header */
+.header-container {
+  display: flex; /* Arrange the header and icons horizontally */
+  justify-content: space-between; /* Keep the header and icons at opposite ends */
+   /* Vertically align the content */
+  padding-top: 10px; /* Add some spacing around the container */
+}
+
+.header .location span{
+  font-size: 11px;
+  color: #565E71;
+  
+}
+
+.header .location p{
+  margin-top: 2px;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+width: 90px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+.header-icons {
+  display: flex; /* Arrange icons horizontally */
+  gap: 10px; /* Space between the icons */
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.header-icons .dotsicon{
+  width: 24px; /* Fixed width for the images */
+  height: 24px; /* Fixed height for the images */
+  opacity: 1; /* Ensure the icons are visible */
+}
+.header-icons .bellicon{
+  width: 20px; /* Fixed width for the images */
+  height: 20px; /* Fixed height for the images */
+  opacity: 1; /* Ensure the icons are visible */
+}
+/* .header .location p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #0000;
+} */
+
+.header h2 {
+font-size: 24px;
+font-weight: 400;
+line-height: 1px;
+text-align: left;
+text-decoration-skip-ink: none;
+}
+
+.header .profile p{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-decoration-skip-ink: none;
+color: #565E71;
+
+  }
+.header .profile{
+margin-top: 10px;
+}
+
+/* Booking Image Container */
+.booking-image-container {
+  margin-top: 20px;
+  width: 358px; /* Hug width */
+  height: 180px; /* Fixed height */
+  border-radius: 4px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents image overflow */
+}
+
+.booking-image {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fills the space proportionally */
+  opacity: 1; /* Set opacity if required */
+}
+
+
+/* Search Section */
+.search-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 358px; /* Fixed width */
+  height: 56px; /* Hug height */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  gap: 0px;
+  opacity: 1;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.search-input {
+  flex: 1; /* Takes up remaining space */
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #000; /* Text color */
+  background-color: transparent;
+}
+
+.search-icon-btn {
+  margin-right: 15px;
+  width: 24.03px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px; /* Icon size */
+  color: #555; /* Icon color */
+}
+
+.search-icon-btn:hover {
+  color: #007bff; /* Hover effect for the icon */
+}
+
+
+/* Sections */
+.specialists-section,
+.hospitals-section {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.specialists-section h3,
+.hospitals-section h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #005BC1;
+  text-align: left;
+}
+
+.specialists-list,
+.hospitals-list {
+  display: flex;
+  gap: 12px;
+}
+
+.specialist-card,
+.hospital-card {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.specialist-card img,
+.hospital-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Upcoming Bookings */
+.bookings-section {
+  margin-bottom: 200px;
+  width: 358px;  /* Fixed width */
+  height: 236px; /* Fixed height */
+  display: flex;
+  flex-direction: column; /* Stack the heading and details vertically */
+  gap: 12px;
+  opacity: 1; /* Set opacity to 1 */
+}
+
+.bookings-section h3 {
+  margin-top: 30px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-decoration-skip-ink: none;
+color: #005BC1;
+
+
+}
+
+.booking-details {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  position: relative; /* To position the image in the top-right corner */
+  width: 100%;
+  height: 100%; /* Ensure it fills the available space */
+  gap: 12px;
+}
+
+.booking-text {
+  display: flex;
+  flex-direction: column; /* Stack text and actions vertically */
+  gap: 6px;
+  width: calc(100% - 104px); /* Adjusts for the width of the image */
+}
+
+.booking-text .ques{
+font-size: 11px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+text-decoration-skip-ink: none;
+
+}
+.booking-text .ans{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+.booking-details p {
+  margin: 0;
+  color:  #565E71;
+  ;
+}
+
+.booking-actions {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  gap: 10px;  /* Space between buttons */
+  margin-top: 10px; /* Adds space between text and buttons */
+  width: 100%;  /* Takes up the full width of its parent container */
+  height: 100%; /* Takes up the full height of its parent container */
+}
+
+.call-btn,
+.chat-btn {
+  cursor: pointer;
+  width: 101px;  /* Fixed width for buttons */
+  height: 40px;  /* Fixed height for buttons */
+  padding: 0;  /* Remove any extra padding */
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;  /* Makes the button a flex container */
+  justify-content: center;  /* Centers text horizontally */
+  align-items: center;  /* Centers text vertically */
+  text-align: center;  /* Ensures text is centered */
+  background: #005BC1;
+}
+
+
+.booking-imag {
+  position: absolute;
+  top: 0;
+  right: 0;  /* Position the image at the top-right */
+  width: 104px;  /* Fixed width for the image */
+  height: 109px; /* Fixed height for the image */
+  opacity: 1;
+}
+
+.booking-imag img {
+  width: 100%;  /* Makes the image fill the container */
+  height: 100%; /* Makes the image fill the container */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+  border-radius: 4px 0 0 0; /* Rounded top-left corner */
+}
+
+
+/* Footer Navigation */
+.footer {
+  border-top: 1px solid #DBE2F9;
+  background-color: #fff;
+  width: 390px;  /* Adjusted width */
+  height: 81px;  /* Adjusted height */
+  display: flex;  /* Use flexbox for horizontal layout */
+  justify-content: space-around;  /* Space the items evenly */
+  align-items: center;  /* Vertically center the items */
+  opacity: 1;  /* Make it visible */
+  position: fixed;  /* Use fixed positioning for footer */
+  bottom: 0;  /* Position it at the bottom of the screen */
+  left: 0;  /* Align the footer to the left edge of the screen */
+}
+
+.nav-item img {
+  cursor: pointer;
+  width: 24px;  /* Fixed width for images */
+  height: 24px;  /* Fixed height for images */
+  padding: 0.01px 0 0.01px 0;  /* Minimal padding */
+  gap: 0px;  /* Remove gap between items */
+  opacity: 1;  /* Ensure the images are visible */
+}
+
+
+

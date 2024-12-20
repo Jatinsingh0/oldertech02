@@ -1,0 +1,117 @@
+.transport-header {
+  /* margin-top: -55%; */
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM sans";
+  color: #fff;
+  position: fixed;
+  background-color: #2f4541;
+  width: 100vw;
+}
+
+.transport-title {
+  font-family: "DM Sans";
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transport-header .back-btn {
+  position: absolute;
+  left: 0;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.trsd {
+  font-family: "DM Sans";
+}
+
+.trsd h2 {
+  font-size: 21px;
+}
+
+.form-transport form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.form-transport form label {
+  font-family: "DM Sans";
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.form-transport form input {
+  border: 1px solid grey;
+  padding: 14px 19px 14px 19px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 78%;
+  margin-top: 4px;
+  font-family: "DM Sans";
+}
+
+.form-transport form select {
+  border: 1px solid grey;
+  padding: 14px 17px 14px 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 89%;
+  margin-top: 4px;
+  font-family: "DM Sans";
+}
+
+.form-transport button {
+  width: 313px;
+}
+
+.status-order {
+  font-family: "DM Sans";
+}
+
+.status-order h2 {
+  margin-left: 12px;
+  font-size: 18px;
+  margin-top: 32px;
+}
+
+.status-container {
+  font-family: "DM sans", sans-serif;
+  width: 100%;
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.status-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-image {
+  width: 100px; /* Adjust the size as needed */
+  margin-right: 20px; /* Space between image and text */
+}
+
+.status-text p {
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text color */
+}
+
+.status-progressing {
+  color: #e67e22; /* Orange color for progressing status */
+  font-weight: bold;
+}

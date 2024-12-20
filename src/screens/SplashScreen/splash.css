@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "avenir-next";
+  src: url("./fonts/avenir-next-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.verify-title {
+  color: #fff;
+  margin-left: 12%;
+  margin-bottom: -20px;
+  font-size: 23px;
+  font-family: "DM Sans";
+  font-weight: bold;
+  margin-top: 10%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.logoContainer {
+  width: 150px; /* adjust based on your image size */
+  height: 150px; /* adjust based on your image size */
+  border-radius: 75px; /* half of width/height to make it circular */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px; /* adjust based on your logo size */
+  height: 250px; /* adjust based on your logo size */
+  object-fit: contain;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Intro1 */
+
+.backgroundImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/intro3.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.281);
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: #fff;
+  margin-left: 16%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-family: "DM Sans";
+  font-weight: bold;
+  margin-top: 90%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 50px;
+}
+
+button {
+  color: #fff;
+  background-color: #2f4541;
+  border-radius: 7px;
+  border: 1px solid #2f4541;
+  font-family: "DM Sans";
+  cursor: pointer;
+  padding-left: 31px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.login {
+  border: 1px solid #ffffff;
+  background-color: #2f454100;
+  padding-right: 24px;
+}
+
+.intro-title-text {
+  font-size: 21px !important;
+  font-family: "DM Sans";
+  line-height: 1.2;
+  letter-spacing: 0.35px;
+}

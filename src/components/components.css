@@ -1,0 +1,41 @@
+.language-popup-title {
+  margin-top: 2em;
+  font-family: "DM sans";
+  margin-right: 23px;
+}
+
+/* LanguagePopup.css */
+.language-popup {
+  position: fixed;
+  height: 90vh;
+  width: 100vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+
+  padding: 20px;
+  z-index: 1000;
+}
+
+.pop-up {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  font-family: "DM sans";
+}
+
+.op {
+  margin-top: 23px;
+  font-size: 18px;
+  margin-left: 12px;
+  font-family: "DM sans";
+  transition: background-color 0.3s ease; /* Add a transition for a smoother effect */
+}
+
+.op:active {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Change background color on touch/click */
+}

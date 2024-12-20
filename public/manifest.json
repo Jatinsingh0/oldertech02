@@ -1,0 +1,28 @@
+{
+    "short_name": "Clic Recycle",
+    "name": "Clic Recycle",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "32x32 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "background_color": "#2f4541",
+    "display": "standalone",
+    "scope": ".",
+    "theme_color": "#2f4541",
+    "orientation": "portrait"
+  }
+  

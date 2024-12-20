@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "avenir-next";
+  src: url("./fonts/avenir-next-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header-login {
+  margin-top: -6%;
+  height: 175px;
+  font-family: "DM Sans";
+}
+
+.header-login h1 {
+  color: #1A0D5F;
+  padding-top: 55px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 28px;
+}
+
+.header-login p {
+  color: #1A0D5F;
+  margin-top: -5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+}
+.header-login span {
+  text-decoration: underline;
+}
+
+.form-signup {
+  margin-top: 35px;
+  width: 80vw;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 2%;
+}
+
+.container-signup .header {
+  background-color: #1A0D5F;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.subTitle {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.form-signup label {
+  font-family: "DM Sans";
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.form-signup .input {
+  border: 1px solid grey;
+  padding: 14px 17px 14px 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 4px;
+  font-family: "DM Sans";
+}
+.button {
+  background-color: #1A0D5F;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  width: 113%;
+  cursor: pointer;
+}
+.orText {
+  font-size: 14px;
+  text-align: center;
+  width: 113%;
+  font-family: "DM Sans";
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-login-icons {
+  margin-top: 23px;
+  height: 29px;
+  width: 29px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 23px;
+}
+
+.verified-title {
+  text-align: center !important;
+  padding-left: 0%;
+  padding-right: 5%;
+}
+
+.verified-title-paragraph {
+  font-family: "DM Sans";
+  margin-left: 54px;
+  margin-right: 54px;
+  text-align: center;
+  margin-top: 26px;
+  opacity: 0.7;
+}
+
+.signup-verify-png {
+  height: 233px;
+  width: auto;
+  margin-top: 32px;
+}
+
+.verified-title-button {
+  width: 323px;
+  margin-left: 30px;
+}
+
+.loreal-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.loreal-signup-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.loreal-signup-logo img {
+  margin-top: 30px;
+  width: 123px;
+  height: auto;
+}
+
+.loreal-logo img {
+  margin-top: 30px;
+  width: 123px;
+  height: auto;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 80px;
+  aspect-ratio: 1;
+  border: 12px solid #ddd;
+  border-radius: 50%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  inset: -15px;
+  border-radius: 50%;
+  border: 15px solid #000000;
+  animation: l18 2s infinite linear;
+}
+@keyframes l18 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
+
+/* LoginOverviewCSS */
+
+.header-login-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+}
+
+.header-login-category .logo-header-category {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-login-category .logo-header-category img {
+  height: auto;
+  width: 70px;
+  margin-left: 22px;
+  margin-right: 12px;
+}
+
+.header-login-category .logo-header-category .text-category {
+  font-family: "DM Sans";
+  line-height: 1.2;
+  letter-spacing: 0.35px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 22px;
+}
+
+.header-login-category p {
+  font-family: "DM Sans";
+  margin-left: 22px;
+  font-size: 12px;
+  margin-right: 22px;
+  margin-top: 33px;
+  text-align: center;
+  color: #00000078;
+}
+
+.choose-account-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.choose-account-screen .choose-screen-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "DM sans";
+  margin-top: 30px;
+}
+
+.choose-account-screen .selection-box-category {
+  height: 108px;
+  width: 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 23px;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM sans";
+}
+
+.selection-box-category .selection-box-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.selection-box-category .selection-box-description {
+  color: #fff;
+  font-weight: 200;
+  font-size: 13px;
+}

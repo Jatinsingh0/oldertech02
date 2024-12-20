@@ -1,0 +1,227 @@
+.header-signup {
+  background: #1A0D5F;
+  margin-top: -6%;
+  height: 175px;
+  font-family: "DM Sans";
+}
+
+.header-signup h1 {
+  color: #fff;
+  padding-top: 55px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 28px;
+}
+
+.header-signup p {
+  color: #fff;
+  margin-top: -5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 14px;
+}
+.header-signup span {
+  text-decoration: underline;
+}
+
+.form-signup {
+  margin-top: 35px;
+  width: 80vw;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 2%;
+}
+
+.container-signup .header {
+  background-color: #1A0D5F;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.subTitle {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.form-signup label {
+  font-family: "DM Sans";
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.form-signup .input {
+  border: 1px solid grey;
+  padding: 14px 17px 14px 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 4px;
+  font-family: "DM Sans";
+}
+.button {
+  background-color: #1A0D5F;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  width: 113%;
+  cursor: pointer;
+}
+.orText {
+  font-size: 14px;
+  text-align: center;
+  width: 113%;
+  font-family: "DM Sans";
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social-login-icons {
+  margin-top: 23px;
+  height: 29px;
+  width: 29px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 23px;
+}
+
+.verified-title {
+  text-align: center !important;
+  padding-left: 0%;
+  padding-right: 5%;
+}
+
+.verified-title-paragraph {
+  font-family: "DM Sans";
+  margin-left: 54px;
+  margin-right: 54px;
+  text-align: center;
+  margin-top: 26px;
+  opacity: 0.7;
+}
+
+.signup-verify-png {
+  height: 233px;
+  width: auto;
+  margin-top: 32px;
+}
+
+.verified-title-button {
+  width: 323px;
+  margin-left: 30px;
+}
+
+.loreal-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.loreal-logo img {
+  margin-top: 30px;
+  width: 123px;
+  height: auto;
+}
+
+.verify-title-sub {
+  font-family: "DM Sans";
+  font-size: 18px;
+}
+
+.password-signup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 19px;
+  border: 1px solid grey;
+  padding: 19px 17px 14px 17px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 4px;
+  font-family: "DM Sans";
+}
+input:focus {
+  outline: none;
+}
+.password-input {
+  border: none !important;
+  margin-left: -5%;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 20px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 8px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

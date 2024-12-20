@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.phone-install {
+  background-color: #ffff;
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  font-family: "DM Sans";
+  overflow: hidden;
+}
+
+.phone-logo {
+  display: flex;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.phone-logo img {
+  height: auto;
+  width: 280px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera, and Firefox */
+}
+
+.phone-logo h2 {
+  font-size: 19px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera, and Firefox */
+}
+
+.suspended {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.suspended img {
+  height: 230px;
+  margin-top: 52%;
+}
+
+.suspended p {
+  font-family: "DM sans";
+  font-size: 14px;
+  text-align: center;
+}
+
+.order-history {
+  overflow: hidden;
+  width: 334px;
+  margin-top: 42px;
+  margin-bottom: 23px;
+}
+
+.month-btn-selected {
+  height: 35px !important;
+  width: 113px;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #2f4541;
+  color: #fff;
+  border-color: #f2efff;
+  margin-right: 12px;
+  margin-top: 42px;
+}
+
+.month-btn {
+  height: 35px !important;
+  width: 113px;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: grey;
+  border-color: grey;
+  margin-right: 12px;
+  margin-top: 42px;
+}
+
+.year-select {
+  position: absolute;
+  right: 0;
+
+  height: 35px !important;
+  width: 73px;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  color: grey;
+  border-color: grey;
+  margin-right: 28px;
+  font-family: "DM sans";
+  border-radius: 6px;
+  padding-left: 12px;
+}
+
+.bags-history {
+  background-color: #f2f2f5;
+  height: 173px;
+  border-radius: 6px;
+  padding-left: 19px;
+  padding-top: 18px;
+}
+
+.bags-history .title-bag-history {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "DM sans";
+  margin-left: 4px;
+}
+
+.bags-history .order-history-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.bags-history .order-history-details span {
+  font-size: 13px;
+  font-family: "DM sans";
+}
+
+.bags-history .bag-image {
+  height: 123px;
+  width: 143px;
+  margin-right: 12px;
+  border-radius: 4px;
+  /* background-color: red; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sdg-display {
+  padding-top: 43%;
+  z-index: -100;
+  font-family: "DM sans";
+  padding-bottom: 132px;
+}
+
+.sdg-front-view .sdg-year-selection {
+  position: absolute;
+  right: 0;
+  margin-right: 23px;
+  margin-top: -43px;
+  height: 33px;
+  width: 123px;
+  border: 1px solid #eaeaea;
+  font-family: "DM Sans";
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.sdg-year-chart {
+  margin-left: -3px;
+}
+
+.sdg-background {
+  /* background-image: url("/sdg-background.png"); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.sdg-data-box {
+  background: #fff;
+  height: 133px;
+  width: 133px;
+  margin-left: 23px;
+  border-radius: 12px;
+  margin-top: 28px;
+  padding-top: 13px;
+  padding-left: 14px;
+  padding-right: 12px;
+  margin-bottom: 30;
+  overflow: hidden;
+}
+
+.sdg-data-box .sdg-box-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.sdg-data-box .sdg-box-result {
+  font-size: 26px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.row-sdg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 22px;
+}
+
+.sdg-image-numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+}
+.sdg-image-numbers img {
+  height: auto;
+  width: 45px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.backdrop {
+  position: fixed; /* Positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Viewport width: ensures it covers the full width of the viewport */
+  height: 100vh; /* Viewport height: ensures it covers the full height of the viewport */
+  background-color: rgba(0, 0, 0, 0.416); /* Solid black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* High z-index to ensure it sits on top of other content */
+}
+.box-layout-loader {
+  font-family: "DM sans";
+  background-color: rgba(0, 0, 0, 0.416);
+  width: 100vw; /* Example width, adjust as needed */
+  height: 100vh; /* Example height, adjust as needed */
+  color: white; /* For any text inside */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001; /* Above the backdrop */
+}
+@keyframes ldio-sz3t0pt9icb {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.ldio-sz3t0pt9icb > div > div {
+  position: absolute;
+  border-radius: 50%;
+}
+.ldio-sz3t0pt9icb > div > div:nth-child(1) {
+  top: 15px;
+  left: 15px;
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+}
+.ldio-sz3t0pt9icb > div > div:nth-child(2) {
+  top: 18.500000000000004px;
+  left: 43.7px;
+  width: 12.6px;
+  height: 12.6px;
+  background: #28292f;
+  animation: ldio-sz3t0pt9icb 0.6451612903225806s linear infinite;
+  transform-origin: 6.3px 31.499999999999996px;
+}
+.loadingio-spinner-disk-wpzfv9rupyg {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-sz3t0pt9icb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.64);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-sz3t0pt9icb div {
+  box-sizing: content-box;
+}
+
+/* Default style for smaller screens */
+.second-column-item {
+  margin-left: 0px; /* Default margin for small screens */
+}
+
+/* When screen width is at least 376px (just above 375px) */
+@media only screen and (min-width: 376px) {
+  .second-column-item {
+    margin-left: 7px; /* Assuming a default for the range starting from 376px to 389px */
+  }
+}
+
+/* When screen width is exactly 390px */
+@media only screen and (min-width: 390px) {
+  .second-column-item {
+    margin-left: 7px;
+  }
+}
+
+/* When screen width is between 391px and 413px */
+@media only screen and (min-width: 391px) and (max-width: 413px) {
+  .second-column-item {
+    margin-left: 7px; /* Adjust if needed for this range */
+  }
+}
+
+/* When screen width is exactly 414px */
+@media only screen and (min-width: 414px) {
+  .second-column-item {
+    margin-left: 19px;
+  }
+}
+
+/* When screen width is between 415px and 429px */
+@media only screen and (min-width: 415px) and (max-width: 429px) {
+  .second-column-item {
+    margin-left: 19px; /* Adjust if needed for this range */
+  }
+}
+
+/* When screen width is exactly 430px */
+@media only screen and (min-width: 430px) {
+  .second-column-item {
+    margin-left: 26px;
+  }
+}
+
+/* Adjustments for wider screens than 430px, if necessary */
+@media only screen and (min-width: 431px) {
+  .second-column-item {
+    margin-left: 26px; /* Default margin for screens wider than 430px, adjust if needed */
+  }
+}
+
+.loreal-sdg-logo {
+  position: absolute;
+  margin-top: -57px;
+  margin-left: 12%;
+}
+
+.loreal-sdg-logo img {
+  height: auto;
+  width: 73px;
+}
+
+.time-duration-timestamp {
+  text-align: center;
+  font-size: 13px;
+}
+
+.from-date-farmer-sorting {
+  font-size: 12px;
+}
+.to-date-farmer-sorting {
+  font-size: 12px;
+}
+.from-date-farmer-sorting input {
+  margin-top: 12px;
+  margin-left: 12px;
+  padding: 4px;
+  font-family: "DM sans";
+}
+
+.to-date-farmer-sorting input {
+  margin-top: 12px;
+  margin-left: 29px;
+  padding: 4px;
+  font-family: "DM sans";
+}
+
+/* Base styles for .events-homepage-icon could go here */
+
+/* When width is exactly 375px */
+@media only screen and (min-width: 375px) and (max-width: 389px) {
+  .events-homepage-icon {
+    width: 93px; /* Applies to widths from 375px to 389px */
+  }
+}
+
+/* When width is 390px to 413px */
+@media only screen and (min-width: 390px) and (max-width: 413px) {
+  .events-homepage-icon {
+    width: 98px;
+    margin-left: -2%;
+  }
+}
+
+/* When width is exactly 414px */
+@media only screen and (min-width: 414px) {
+  .events-homepage-icon {
+    width: 113px;
+    margin-left: -3%;
+  }
+}
